@@ -1,0 +1,12 @@
+Design Pattern là gì trong Flutter?
+Design Pattern là mẫu giải pháp có sẵn để giải quyết những vấn đề lặp lại trong lập trình.
+
+Trong Flutter, Design Pattern giúp bạn:
+
+- Tách code rõ ràng – dễ bảo trì
+- Giảm phụ thuộc giữa UI và logic
+- Tăng khả năng test
+- Dễ mở rộng ứng dụng lớn
+- Tránh spaghetti code
+
+
