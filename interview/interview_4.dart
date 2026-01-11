@@ -10,3 +10,5 @@
 /// *** BuildContext đại diện cho vị trí của một widget trong widget tree.
 ///  Nó cho phép widget truy cập các widget tổ tiên như Theme, MediaQuery, Navigator hoặc InheritedWidget.
 /// Việc dùng đúng BuildContext rất quan trọng để tránh lỗi scope và lifecycle trong Flutter.
+/// 
+/// *** 🚀 Flutter Widget Difference: IgnorePointer() vs AbsorbPointer()
