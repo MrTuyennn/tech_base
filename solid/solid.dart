@@ -30,3 +30,9 @@
 ///*** Khó test
 ///*** SOLID ≠ pattern
 ///*** SOLID = cách suy nghĩ
+///
+///S → One class, one responsibility
+// O → Extend code, don’t modify it
+// L → Child classes shouldn’t break parent behavior
+// I → Small, focused interfaces
+// D → Depend on abstractions, not implementations
