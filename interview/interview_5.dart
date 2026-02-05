@@ -12,6 +12,7 @@ int listNumber(List<int> ls) {
   return maxValue;
 }
 
+/// thuật toán
 void sort(List<int> ls) {
   int n = ls.length;
 
@@ -26,11 +27,32 @@ void sort(List<int> ls) {
   }
 }
 
+/// sortAscending
+List<int> sortAscending(List<int> ls) {
+  final result = List<int>.from(ls);
+  result.sort();
+  return result;
+}
+
+/// sortDescending
+List<int> sortDescending(List<int> ls) {
+  final result = List<int>.from(ls);
+  result.sort((a, b) => b.compareTo(a));
+  return result;
+}
+
 void main() {
+  /// *** tìm lớn nhất nhỏ nhất
   // List<int> ls = [1, 5, 454, 54, 32, 23];
   // int value = listNumber(ls);
   // print(value);
+
+  /// *** sắp xếp giảm dần
   List<int> arr = [3, 7, 2, 9, 5];
-  sort(arr);
-  print(arr); // [9, 7, 5, 3, 2]
+  // sort(arr);
+  // print(arr); // [9, 7, 5, 3, 2]
+  final ls = sortAscending(arr);
+  print(ls); // [2, 3, 5, 7, 9]
+  // sortDescending(arr);
+  // print(arr); // [9, 7, 5, 3, 2]
 }
